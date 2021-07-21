@@ -1,0 +1,350 @@
+// Carruse
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+.ContSl {
+  background-color: rgba($color: #fff, $alpha: 0.5);
+  width: 650px;
+  padding: 40px;
+  margin: 200px 0px 0px 200px;
+  height: 350px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+.ContSlider{
+  background-image: url(./../../assets/jpg/0.jpg);
+  min-height: 730px;
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.ContSliderw{
+  background-image: url(./../../assets/jpg/0-2.jpg);
+  min-height: 730px;
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.ContSlidert{
+  background-image: url(./../../assets/jpg/0-3.jpg);
+  min-height: 730px;
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.ContSl h1 {
+  font-family: bold;
+  font-size: 35px;
+}
+.ContSl p {
+  font-family: regular;
+  font-size: 20px;
+}
+.btnone {
+  transition: 0.3s;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #a00000;
+  width: 100%;
+  outline:none;
+  font-family: bold;
+}
+.btnone:hover {
+  transition: 0.3s;
+  transform: translateY(-2px);
+  background-color: #c90202;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.301);
+}
+.btnsl{
+  background-color: rgba($color: #fff, $alpha: 0.5);
+}
+
+@media (max-width: 1000px) {
+  .ContSl {
+    width: 100%;
+    max-width: 500px;
+    margin: 10% 5%;
+    padding: 5%;
+    height: 100%;
+    transition: 0.3s;
+  }
+  .contbtnsl{
+    margin: 10%;
+    transition: 0.3s;
+
+  }
+  .ContSlider{
+    text-align: -webkit-center;
+    transition: 0.3s;
+  }
+  .ContSliderw{
+    text-align: -webkit-center;
+    transition: 0.3s;
+  }
+  .ContSlidert{
+    text-align: -webkit-center;
+    transition: 0.3s;
+  }
+ 
+}
+
+// Seccion noticias
+.contnot{
+  padding: 100px 0px 0pc 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.Contnothijo{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.noticias{
+  font-family: bold;
+  font-size: 55px;
+  margin-bottom: 0px;
+}
+.line{
+  width: 150px;
+  height: 5px;
+  background-color: #000;
+  padding: 0%;
+  margin: 0%;
+}
+.titlenot{
+  font-family: bold;
+  font-size: 35px;
+  text-align: left;
+  line-height : 30px;
+
+}
+.sublenot{
+  font-family: regular;
+  font-size: 25px;
+  color: rgba($color: #000000, $alpha: 0.5);
+  text-align: left;
+  line-height : 27px;
+}
+.texlenot{
+  font-family: medio;
+  font-size: 20px;
+  color: rgba($color: #000000, $alpha: 0.5);
+  line-height : 25px;
+  text-align: justify;
+
+}
+.conttextonot{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  align-content: center;
+  padding: 100px;
+  width: 50%;
+}
+.contcarrotxtapa{
+  display: none;
+}
+.contcarrotxtdesp{
+  display: flex;
+}
+.contimg{
+  width: 50%;
+  opacity: 0.8;
+  transition: 1s;
+}
+.contimg:hover{
+  transition: 1s;
+  opacity: 1;
+  cursor: pointer;
+}
+.contcarrotxt{
+  display: flex;
+}
+
+@media (max-width: 1500px) {
+  .contcarrotxt{
+    display: flex;
+    flex-direction: column;
+  }
+  .contcarrotxtdesp{
+    display: none;
+  }
+  .contcarrotxtapa{
+    display: flex;
+    flex-direction: column;
+  }
+  .conttextonot{
+    width: 100%;
+    padding: 10%;
+  }
+  .contimg{
+    width: 100%;
+  }
+}
+
+// Seccion FAQs
+.contfaqpadre{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 100px 30px 100px;
+  transition: 1s;
+}
+.btncollapse{
+  display: flex;
+  border: 1px solid #000;
+  width: 100%;
+  padding: 20px;
+  justify-content: space-between;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: bold;
+  font-size: 25px;
+  margin-bottom: none;
+  transition: 1s;
+  margin-top: none;
+}
+.btncollapse:hover{
+  background-color: #a00000;
+  color: #fff;
+  transition: 1s;
+}
+.contflecha{
+  display: flex;
+  align-content: center;
+  width: 100%;
+  padding: 0px 100px;
+  margin-bottom: 0rem;
+}
+.contcarta{
+  display: flex;
+  align-content: center;
+  align-items: flex-start;
+  margin: 0px 100px;
+  padding: 25px;
+  border: 1px solid #000;
+}
+@media (max-width: 1500px) {
+  .contfaqpadre{
+    transition: 1s;
+    padding: 10%;
+  }
+  .contflecha{
+    padding: 0% 10%;
+    margin-bottom: 0rem;
+  }
+  .contcarta{
+    margin: 0% 10%;
+  }
+}
+
+// Seccion Formulario
+.conbg{
+  display: flex; 
+  justify-content: center;
+  background-image: url(./../../assets/jpg/4.jpg);
+  width: 100%;
+  margin-top: 100px;
+  padding: 100px;
+  flex-direction: column;
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.contform{
+  display: flex;
+  align-items: center;
+}
+.contformone{
+  background-color: #fff;
+  border-radius: 0px 0px 10px 10px;
+  flex-direction: column;
+}
+.contbarra{
+  background-color: rgba(0, 0, 0, 0.479);
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  height: 13px;
+}
+.contform{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+.impgen{
+  background-color: rgba($color: #000000, $alpha: 0.1);
+  text-decoration: none;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-family: regular;
+  font-size: 25px;
+  color: rgba($color: #000000, $alpha: 0.5);
+  width: 100%;
+}
+.nameimp{
+  font-size: 25px;
+  font-family: medio;
+  margin-bottom: 0px;
+  padding: 0px;
+  margin-top: 10px;
+}
+.contbarraim{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+.contgrpone{
+  display: flex;
+}
+.formes{
+  width: 100%;
+}
+.conpadree{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); border-radius: 10px; max-width: 800px;
+}
+@media (max-width: 1000px) {
+  .contbarraim{
+    width: 100%;
+  }
+  .conbg{
+    padding: 10%;
+  }
+  .contform{
+    padding: 5%;
+  }
+  .contgrpone{
+    flex-direction: column;
+  }
+}

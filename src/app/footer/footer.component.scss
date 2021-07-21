@@ -1,0 +1,67 @@
+.btnfot{
+    background-color: #fff;
+    list-style: none;
+    border-radius: none;
+    border: none;
+    font-family: regular;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.377);
+    padding: 10px;
+    margin: 10px;
+    transition: 1s;
+}
+.btnfot:hover{
+    background-color: #fff;
+    list-style: none;
+    border-radius: none;
+    border: none;
+    font-family: regular;
+    font-size: 15px;
+    color: #000;
+    transition: 1s;
+}
+.copntfoo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Contpadrefo{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.gcont{
+    display: flex;
+    padding: 100px;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.txtfo{
+    font-family: regular;
+    font-size: 20px;
+    color: rgba($color: #000000, $alpha: 0.5);
+}
+.contlog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    max-width: 500px;
+}
+@media (max-width: 1000px) {
+    .gcont{
+        padding: 10%;
+        flex-direction: column;
+        transition: 1s;
+
+    }
+    .Contpadrefo{
+        flex-direction: column;
+        text-align: left;
+        transition: 1s;
+
+    }
+    
+}
+   

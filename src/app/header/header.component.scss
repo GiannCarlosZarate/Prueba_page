@@ -1,0 +1,191 @@
+.contgg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 50px;
+    background-color: #000 !important;
+}
+.contbtn{
+    font-family: bold;
+    font-size: 20px;
+    color: #fff;
+}
+.txtheader{
+    color: #fff !important;
+    text-decoration: none;
+    padding: 0px 60px !important;
+    transition: 1s;
+}
+.conthijohe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-right: 20px;
+}
+.contshe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+.conshear{
+    display: flex;
+    background-color: #fff;
+}
+.btnshe{
+    background-color: #fff;
+    border-radius: 0px 5px 5px 0px;
+    margin: 0px;
+    padding: 10px;
+    z-index: 1;
+    outline:none;
+    box-shadow: none;
+    border-style: none;
+    border-left: 1px solid rgba(0, 0, 0, 0.123);
+    transition: 1s;
+}
+.barrashear{
+    background-color: #fff;
+    border-radius: 5px 0px 0px 5px;
+    z-index: 1;
+    margin: 0px;
+    padding: 10px;
+    outline:none;
+    border: none;
+    box-shadow: none;
+}
+.contgendep{
+    text-align: center;
+    align-items: center;
+}
+.conttxt{
+    margin: 20px 0px;
+}
+.txtcat{
+    display: flex;
+    align-items: flex-start;
+    font-family: medio;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    list-style:none;
+    border-radius: 5px;
+    padding: 10px 10px 10px 30px;
+    margin-bottom: 10px;
+    border: 1px solid rgba($color: #fff, $alpha: 0.2);
+    transition: 1s;
+    min-width: 300px;
+}
+.txtcat:hover{
+    background-color:  rgba($color: #fff, $alpha: 0.2);
+    transition: 1s;
+    cursor: pointer;
+}
+.txtheader:hover{
+    color: #a00000 !important;
+    transition: 1s;
+}
+.btnshe:hover{
+    background-color: rgb(206, 206, 206);
+    transition: 1s;
+}
+.fixed{
+    position: fixed;
+    z-index: 100;
+    top: 0%;
+    background-color: rgba($color: #000000, $alpha: 0.7) !important;
+}
+.navbar{
+    transition: all 0.5s ease !important;
+}
+.contlis{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.txttl{
+    font-family: bold;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+.txtpr{
+    font-family: regular;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    color: #fff;
+}
+.hide{
+    display: none !important;
+}
+.show{
+    display: flex;
+}
+.contulgen[show="true"]{
+    display: flex !important;
+}
+.contulgen[show="false"]{
+    display: none ;
+}
+.contulgen{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-content: space-between !important;
+    width: 100%;
+    background-color: rgba($color: #000000, $alpha: 1);
+    margin-bottom: 0;
+    display: flex;
+}
+
+.contlis img{
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contlis img:hover{
+    transition: 0.5s;
+    opacity: 1;
+}
+.contcar{
+    display: flex;
+}
+
+@media (max-width: 1200px) {
+    .barrashear{
+        width: 80%;
+        transition: 1s;
+    }
+    .btnshe{
+        width: 20%;
+        transition: 1s;
+    }
+    .contulgen{
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .contulone{
+        padding-left: 0px;
+    }
+    .contlis{
+        padding-left: 0px;
+        margin-right: 0px;
+    }
+    .contulgen ul{
+        padding-left: 0px;
+    }
+    .contcar{
+        display: none;
+    }
+    
+}
+@media (max-width: 700px) {
+    .show{
+        display: block;
+    }
+}

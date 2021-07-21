@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "bold";
+    src: url("./../assets/font/MazdaType-Bold.otf");
+  }
+  @font-face {
+    font-family: "boldit";
+    src: url("./../assets/font/MazdaType-BoldItalic.otf");
+  }
+  @font-face {
+    font-family: "italic";
+    src: url("./../assets/font/MazdaType-Italic.otf");
+  }
+  @font-face {
+    font-family: "medio";
+    src: url("./../assets/font/MazdaType-Medium.otf");
+  }
+  @font-face {
+    font-family: "midit";
+    src: url("./../assets/font/MazdaType-MediumItalic.otf");
+  }
+  @font-face {
+    font-family: "regular";
+    src: url("./../assets/font/MazdaType-Regular.otf");
+  }
+  p{
+      margin-bottom: none;
+  }
